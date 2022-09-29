@@ -1,0 +1,20 @@
+Switch Case 
+-executes one statement from multiple conditions
+
+
+A switch case works with bytes short char int and String
+
+
+SYNTAX
+
+switch(variable){
+	case value1:
+		codeA;
+		break;
+	case value2:
+		code B;
+		break;
+	default:
+		code C;
+		break:
+		}

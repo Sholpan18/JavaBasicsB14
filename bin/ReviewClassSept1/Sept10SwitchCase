@@ -1,0 +1,19 @@
+Java class 7
+
+switch syntax
+
+switch (variable){
+case value1:
+	code1A;
+	break;
+case value2:
+	code B;
+	break;
+default:
+	code C;
+	break;
+}
+
+Limitations:
+	data type: CANNOT work with double,float, long, boolean
+	

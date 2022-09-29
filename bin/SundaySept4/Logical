@@ -1,0 +1,21 @@
+
+
+Logical AND && -all conditions MUST be true
+
+Logical OR|| at least 1 conditions must be true for a logical or return TRUE
+
+Logical NOT!
+
+
+
+Compiler always checks our code before giving it to java to execute it.
+
+Compiler can initialize variables to it's default values:
+
+int=0;
+double=0.0;
+boolean=false;
+String and other non primitive=null;
+
+double d=10;
+

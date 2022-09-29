@@ -1,0 +1,59 @@
+Cucumber/BDD(Behavioral, Driven, Development)/Gherkin
+It allows you to write test cases/scenarios in simple plain English sentences
+
+
+Every scenario in BDD represents a Test case:
+* Given - it represents pre-condition
+* When - to perform actions
+* Then - expected result, outcome
+* And - supporting tag
+
+Scenario - Verify the login functionality
+
+Given user is able to access amazon application in browser
+When user enters user name in user name textfield
+And user enters password in password textfield
+And user clicks on login button
+Then user should be able to see login page
+
+it is recommended and best practice to write cucumber scenarios in third person point of view
+it is used to describe business rules
+
+
+Homework:
+write 5 cucumber test cases due by Saturday 3pm for amazon
+
+Given user should able to select location (country, state, zipcode)
+When user wants to see deals in his area, he should be able to change location
+And  user selects the "Select your are" on main page
+And user enters zipcode 
+And clicks "Apply"
+And clicks "Done"
+Then user should be able to see his city/area on main page (Deliver to ____)
+
+
+Given user should able to open best sellers page
+When user wants to see what is best selling items 
+And on the main page user should click "Best Sellers"
+Then page with best selling items will appear on his page
+
+GIVEN USER SHOULD able to listen amazon music
+When user wants to listen music
+And user should apply "All" on the main page
+And click "Amazon music" on the menu
+Then able to stream or buy music
+
+Given user should able to change a language on the main page
+When user wants to change the language preferences 
+And click on language 
+And page with language will appear
+And click on Espanol
+Then save changes
+
+Given user should open rent or buy videos
+When clicking main menu select Prime Video 
+And click on Rent or Buy 
+Then Videos will appear on his screen
+
+
+

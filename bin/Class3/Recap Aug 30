@@ -1,0 +1,78 @@
+Class 2-Manual Testing
+Recap
+Why do we need to test? 
+-to assure the quality of the software, we need to test it
+
+STLC
+*Requirement analysis: against SMART criteria
+	Specific
+	Measurable
+	Attainable (doable)
+	Relevant
+	Time based
+	
+	*Test planning - test plan - Test/QA Lead/ Manager
+	
+	*Test case development 
+	
+	
+	
+	TESTING HIERARCHY
+	https://www.amazon.com -production environment 
+	
+	Developers->Dev -> https://www.dev.amazoncom
+	Testers/QA -> https://www.test.amazon.com
+	Demos/Trials -> https:www.stage.amazon.com 
+	UAT-User acceptance testing -> staging/cert/qual/MR3 -where clients testers perform testing/uat testing
+	Production - it is live environment
+	
+	Class 3 - Manual Testing
+	
+	Recap------------
+	
+	STLC- 
+	Test case development--
+	Testing hierarchy--
+	
+	What we should do when we found a bug?
+	
+* Verify if it is reproducible or not
+Read the requirements to make sure that the bug you found is actually a bug
+
+* Intermittent bugs (sometimes they appear, sometimes they don't)
+
+Bug Life Cycle
+-New->posted for first time
+-Rejected-> wrong info, cleared by devs, happened not a first time
+-Assigned->lead of the team assigns the bug to devs
+
+cycle of bug:
+   		open->fixed->retest->reopened->closed
+
+
+How to report it?
+
+Collect as much as information possible:
+- Exact steps we took to reproduce the bug
+- Browser, time, the environment, test data, logs, screenshots or screen recording
+
+Severity -  the seriousness of the  (Low; Medium; High)
+Priority - Show stopper; Major; Minor; Cosmetic
+
+2 Types of Testing:
+-Functional to check the functionality of the application
+-Non-functional- backend testing behind the scenes
+
+Regression testing - testing the complete functionality // previously executed tests are passed after making changes to a system -> done by QA
+Unit - only one part testing -> testing by devs,
+Integration - complete application with newly added features or modified code works properly with existing features and modules-> testing  by QA
+System testing - testing complete and fully Integrated software product (UI, API, Data Base, server)->QA performs these testings
+Smoke testing - quickly scans the application through multiple high level scenarios under 30 minutes to make sure the the application is working fine 
+Functional + Non-functional testing= System testing -> done by QA
+
+
+
+
+
+
+

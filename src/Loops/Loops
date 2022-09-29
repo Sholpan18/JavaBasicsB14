@@ -1,0 +1,137 @@
+Loops
+it is a general concept in any programming language which allow to run 
+certain piece/block of code multiple times
+
+
+
+Limitations:
+ 		data type: CANNOT work with double, float, long, boolean
+
+ 		operators: CANNOT work with logical and relational
+
+Types of loops:
+1. While loop
+2. Do while loop
+3. For loop
+4. Enhanced loop
+
+System.out.println("Good morning");
+System.out.println("Good morning");
+System.out.println("Good morning");
+System.out.println("Good morning");
+System.out.println("Good morning");
+
+	int time=11;
+	if (time<12){
+		System.out.println("Good morning");
+		}
+		
+		while (time<12){
+		System.out.println("Good morning");}
+	
+	
+		
+While Loop first checks the condition if condition 
+is true then control goes inside the loop body 
+otherwise goes outside of the body. 
+
+while loop syntax
+
+while(boolean condition) {
+	
+	code to be repeated;
+
+}
+
+
+
+DO WHILE LOOP syntax
+do while loop is similar to while loop with only 
+difference that it checks for condition after 
+executing the statements
+	int i=0;
+	do { 
+	code to be repeated; (syso);i++;
+	}while (boolean condition);
+	
+	while vs do while --> both loops executed while condition is true
+	
+	while loop first check condition -> if true_.executes code do while
+	first EXECITES code -> then checks condition
+	
+	FOR LOOP syntax
+	The Java for loop is used to iterate a part of the 
+	program several times. If the number of iteration is 
+	fixed, it is recommended to use for loop.
+	
+	for (initialization; condition; increment/decrement){
+	code to be repeated;}
+	
+	// Hello 5 times; 
+	for (int i=1; i<=5; i++){
+	syso("Hello");}
+	
+	When to use which loop:
+	
+	When we know in advance how many times to repeat block of
+	code-> USE FOR LOOP
+	
+	When we know in advance how many times to repeat block of code -> USE FOR LOOP
+
+	when we do  not know in advance how many times to repeat block of code -> USE WHILE OR DO WHILE
+	
+	
+	
+	Loops in Java
+	Class 8
+	
+while
+do while
+for 
+enhanced for loop/for each loop/advanced for loop
+
+for loop - when we know number of 
+repetitions/iterations in advance
+
+for (initialization; condition; increment/decrement){
+code repeat;
+}
+while loop and do while -> if we don't know number of repetitions
+
+while vs do while
+
+while checks condition first -> then executes code
+do while executes code->then check condition
+
+while	(boolean condition){
+code repeat;
+}
+
+do{
+code repeat;
+}while (boolean condition);
+
+
+
+
+BREAK - breaks the loop and it usually used inside some type of conditions
+
+
+CONTINUE - continues to the next iteration/cycle 
+moment java sees continue->it goes back to the beginning of the loop
+it usually used in some type of conditions
+
+Nested Loops
+Loop inside another loop
+
+for (int i=1; i<3; i++){  -->outer loop
+syso("Hello"):// will executed 2 times
+	for (int j=1; j<=3; j++){ -->nested loop
+	syso("Bye");}
+}
+
+
+
+
+
+

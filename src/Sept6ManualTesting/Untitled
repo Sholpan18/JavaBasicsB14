@@ -1,0 +1,31 @@
+Regression testing
+Integration Testing
+Smoke Testing
+Performance Testing
+508 Compliance Testing
+Ad-Hoc Testing
+
+
+
+Performance Testing - a non-functional testing technique performed to determine
+ the system parameters in terms of responsiveness and stability under various workload.
+performed by special team
+
+ 508 Compliance Testing - is required for all websites, and in general, for all federal departments 
+ and agencies to ensure that electronic information & technology (EIT) is accessible to people with disabilities
+   
+   AD-Hoc testing - Testing performed without planning and documentation.(informal testing)
+   
+Re-Testing - regression testing is done to find out the issues which may get 
+introduced because of any change or modification in the application should not 
+introduce any new bug in existing functionality 
+
+White-box testing - requires detailed programming skills. Done by devs before it goes to QA
+
+Black-box testing - requires no knowledge of internal paths, structures, 
+or implementation of the software being tested.It only cares about input/output. Testers do not know what is inside
+Done by QA
+
+Positive testing - testing applications with valid input
+
+Negative testing - testing applications with invalid input
